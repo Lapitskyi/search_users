@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+body {
+    width: 100%;
+    background: #ffffff;
+    color: #000;
+    min-height: 100vh;
+    margin: 0 auto;
+    min-width: 375px;
+    overflow-x: hidden;
+    position: relative;
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.userList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 360px));
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
