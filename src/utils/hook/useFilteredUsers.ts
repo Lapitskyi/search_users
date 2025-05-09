@@ -23,7 +23,6 @@ function useFilteredUsers(users: User[], query: string) {
         };
 
         traverse(user);
-        console.log(result.join(" "))
         return result.join(" ");
     };
 
